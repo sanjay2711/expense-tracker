@@ -58,10 +58,12 @@ Room Database
 
 ```
 expense-tracker/
- ├── app/        # App entry point, DI setup (Hilt), Navigation
+ ├── app/        # App entry point,
  ├── data/       # Room DB, DAO, Repository Implementation
+ ├── di/         # DI setup (Hilt)
  ├── domain/     # Business logic, UseCases, Models
  ├── ui/         # Screens, ViewModels, UI Components
+ 
 ```
 
 ---
@@ -143,8 +145,8 @@ This project demonstrates:
 
 **Sanjay S**
 
-* GitHub: https://github.com/your-username
-* LinkedIn: *Need to add*
+* GitHub: https://github.com/sanjay2711/expense-tracker/tree/main/app/src/main/java/com/example/expensetracker  
+* LinkedIn: https://www.linkedin.com/in/sanjay-saravanan-849234235?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
 
 ---
 
