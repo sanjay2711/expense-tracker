@@ -59,10 +59,16 @@ dependencies {
     implementation(libs.kotlinx.coroutines)
     implementation(libs.room)
     implementation(libs.hilt.android)
+    implementation(libs.androidx.compose.ui.text)
+    implementation(libs.androidx.compose.foundation)
     ksp(libs.hilt.compiler)
     ksp(libs.room.compiler)
     implementation(libs.hilt.navigation.compose)
-
+    implementation(libs.lottie)
+    implementation(libs.splash)
+    implementation(libs.navigation)
+    implementation(libs.animated.navigation)
+    implementation(libs.constraint.layout)
 
 
     testImplementation(libs.junit)

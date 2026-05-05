@@ -9,11 +9,19 @@ lifecycleRuntimeKtx = "2.10.0"
 activityCompose = "1.13.0"
 composeBom = "2024.09.00"
 lifecycleViewmodelKtx = "2.10.0"
-coroutines = "1.9.0"        # ✅ updated — 1.7.3 incompatible with Kotlin 2.0
+coroutines = "1.9.0"
 room_version = "2.6.1"
-hilt = "2.52"               # ✅ updated — 2.51.1 incompatible with Kotlin 2.0.21
+hilt = "2.52"
 hilt-navigation-compose = "1.2.0"
-ksp = "2.0.21-1.0.27"       # ✅ added — replacing kapt
+ksp = "2.0.21-1.0.27"
+splashscreen = "1.0.1"
+lottie-compose = "6.4.0"
+uiText = "1.10.6"
+navigation = "navigation"
+animated-navigation = "0.34.0"
+constraint-layout = "1.0.1"
+foundation = "1.11.0"
+
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -39,6 +47,14 @@ room-compiler = { group = "androidx.room", name = "room-compiler", version.ref =
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
 hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-navigation-compose" }
+lottie = { group = "com.airbnb.android",name = "lottie-compose",version.ref = "lottie-compose"}
+splash = { group = "androidx.core",name = "core-splashscreen",version.ref = "splashscreen" }
+androidx-compose-ui-text = { group = "androidx.compose.ui", name = "ui-text", version.ref = "uiText" }
+navigation = { group = "androidx.navigation",name = "navigation-compose",version.ref = "navigation"}
+animated-navigation = {group = "com.google.accompanist", name = "accompanist-navigation-animation",version.ref = "animated-navigation"}
+constraint-layout = {group = "androidx.constraintlayout",name = "constraintlayout-compose",version.ref = "constraint-layout"}
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "foundation" }
+
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
